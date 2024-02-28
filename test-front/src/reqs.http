@@ -1,0 +1,16 @@
+###
+POST http://localhost:8080/api/records
+Content-Type: application/json
+
+{
+    "value":"rec3"
+}
+
+###
+POST http://localhost:8080/api/placeholders
+Content-Type: application/json
+
+{
+    "name": "S",
+    "value": "S"
+}
