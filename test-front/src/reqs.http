@@ -1,5 +1,5 @@
 ###
-POST http://localhost:8080/api/records
+POST http://109.194.11.196:8080/api/records
 Content-Type: application/json
 
 {
@@ -7,7 +7,7 @@ Content-Type: application/json
 }
 
 ###
-POST http://localhost:8080/api/placeholders
+POST http://109.194.11.196:8080/api/placeholders
 Content-Type: application/json
 
 {
@@ -16,7 +16,7 @@ Content-Type: application/json
 }
 
 ###
-GET http://localhost:8080/api/records
+GET http://109.194.11.196:8080/api/records
 
 ###
-GET http://localhost:8080/api/placeholders
+GET http://109.194.11.196:8080/api/placeholders
