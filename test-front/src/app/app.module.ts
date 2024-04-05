@@ -14,7 +14,7 @@ import { PlaceholdersComponent } from './placeholders/placeholders.component';
 import { MatButtonModule } from '@angular/material/button';
 import { MatDialogModule } from '@angular/material/dialog';
 import { ModelEditDialog } from './table/dialog/model-edit-dialog.component';
-// import { TaskDescriptionComponent } from './task-decription/task-description.component';
+import { TaskDescriptionComponent } from './task-decription/task-description.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +23,7 @@ import { ModelEditDialog } from './table/dialog/model-edit-dialog.component';
     SettingsComponent,
     PlaceholdersComponent,
     ModelEditDialog,
-    // TaskDescriptionComponent,
+    TaskDescriptionComponent,
   ],
   imports: [
     BrowserModule,
