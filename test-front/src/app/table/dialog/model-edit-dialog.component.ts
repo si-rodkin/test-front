@@ -29,12 +29,6 @@ export class ModelEditDialog {
     public dialogRef: MatDialogRef<ModelEditDialog>,
     @Inject(MAT_DIALOG_DATA) public data: DialogData
   ) {
-    console.log(data.fields)
-    console.log(data.entity)
-
-    for (let field of data.fields) {
-        console.log("key = " + field.key + "; value = " + data.entity[field.key]);
-    }
   }
 }
 

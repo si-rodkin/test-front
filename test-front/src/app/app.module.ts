@@ -9,19 +9,21 @@ import { MatExpansionModule } from '@angular/material/expansion';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { TableComponent } from './table/table.component';
-import { RecordsComponent } from './records/records.component';
+import { SettingsComponent } from './settings/settings.component';
 import { PlaceholdersComponent } from './placeholders/placeholders.component';
 import { MatButtonModule } from '@angular/material/button';
 import { MatDialogModule } from '@angular/material/dialog';
 import { ModelEditDialog } from './table/dialog/model-edit-dialog.component';
+// import { TaskDescriptionComponent } from './task-decription/task-description.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TableComponent,
-    RecordsComponent,
+    SettingsComponent,
     PlaceholdersComponent,
     ModelEditDialog,
+    // TaskDescriptionComponent,
   ],
   imports: [
     BrowserModule,
