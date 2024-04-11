@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { RecordService as SettingsService } from '../service/record.service';
+import { SettingsService as SettingsService } from '../service/settings.service';
 import { RecordTableDescription as SettingsTableDescription } from './settings.table';
 import { RecordsDialog as SettingsDialog } from './settings.dialog';
 
